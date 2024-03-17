@@ -1,0 +1,61 @@
+body {
+    background-color: #94F49C;
+    background-image: url(/assets/images/istockphoto-1247732996-612x612.png), url(/assets/images/falling-blueberries-chokeberries-raspberries-cranberries_92795-1785.png);
+    background-repeat: no-repeat;
+    background-position: -10% 110%, 100% 80%;
+    background-attachment: fixed;
+    background-size: auto, auto;
+  
+
+
+   
+
+}
+
+
+@font-face {
+    font-family: 'indoorschool';
+    src: url('/assets/fonts/IndoorSchool.otf') format('opentype'), /* Cambia la ruta y el formato según tus archivos de fuente */
+  
+ 
+}
+
+
+footer{
+    background-color: #82D2F5;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+h1{
+    font-weight: lighter;
+}
+h2{
+    font-family: indoorschool;
+    font-size: 500%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+.celular:hover, .mail:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del botón al 110% */
+    transition: transform 0.6s ease;
+
+}
+
+.celular, .mail{
+    padding: 0;
+}
+
+.mail:not(:hover),.celular:not(:hover)  {
+    transform: scale(1); /* Restaura el tamaño original al salir el ratón de la tarjeta */
+    transition: transform 0.6s ease;
+    box-shadow: none; /* Elimina la sombra */
+}
+
+
+   
+
+   
+    
+
