@@ -37,23 +37,35 @@ h2{
     margin-bottom: 5%;
     padding-left: 5%;
 }
+
 .celular:hover, .mail:hover {
     transform: scale(1.2); /* Aumenta el tamaño del botón al 110% */
-    transition: transform 0.6s ease;
+    transition: transform 0.8s ease;
+    text-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra con color blanco */
+    
 
+}
+a{
+    text-decoration: none;
 }
 
 .celular, .mail{
-    padding: 0;
+    padding-right: 10px;
+    margin-left: 0;
+    color: #865FF5;
+    cursor: pointer;
+   
+    
+
+   
+  
 }
 
 .mail:not(:hover),.celular:not(:hover)  {
     transform: scale(1); /* Restaura el tamaño original al salir el ratón de la tarjeta */
-    transition: transform 0.6s ease;
+    transition: transform 0.8s ease;
     box-shadow: none; /* Elimina la sombra */
 }
-
-
    
 
    
