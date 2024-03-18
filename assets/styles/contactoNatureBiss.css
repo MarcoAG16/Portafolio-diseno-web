@@ -1,6 +1,6 @@
 body {
     background-color: #94F49C;
-    background-image: url(/assets/images/istockphoto-1247732996-612x612.png), url(/assets/images/falling-blueberries-chokeberries-raspberries-cranberries_92795-1785.png);
+    background-image: url(../images/istockphoto-1247732996-612x612.png), url(../images/falling-blueberries-chokeberries-raspberries-cranberries_92795-1785.png);
     background-repeat: no-repeat;
     background-position: -10% 110%, 100% 80%;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: 'indoorschool';
-    src: url('/assets/fonts/IndoorSchool.otf') format('opentype'), /* Cambia la ruta y el formato según tus archivos de fuente */
+    src: url('../fonts/IndoorSchool.otf') format('opentype'), /* Cambia la ruta y el formato según tus archivos de fuente */
   
  
 }
@@ -54,6 +54,7 @@ a{
     margin-left: 0;
     color: #865FF5;
     cursor: pointer;
+    margin-top: 15%;
    
     
 
@@ -65,6 +66,38 @@ a{
     transform: scale(1); /* Restaura el tamaño original al salir el ratón de la tarjeta */
     transition: transform 0.8s ease;
     box-shadow: none; /* Elimina la sombra */
+}
+
+@media(max-width: 768px){
+
+        h2{
+            font-family: indoorschool;
+            font-size: 500%;
+            margin-bottom: 5%;
+            padding-left: 5%;
+            text-shadow: 0 0 20px rgb(255, 255, 255); /* Sombra con color blanco */
+            
+           
+
+        }
+
+        .celular, .mail{
+            padding-right: 10px;
+            margin-left: 0;
+            color: #865FF5;
+            cursor: pointer;
+            margin-top: 15%;
+            text-shadow: 0 0 20px rgb(255, 25, 217); /* Sombra con color blanco */
+           
+            
+        
+           
+          
+        }
+        
+    
+    
+    
 }
    
 

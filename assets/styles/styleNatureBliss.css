@@ -4,13 +4,13 @@ body{
 
 @font-face {
     font-family: 'indoorschool';
-    src: url('/assets/fonts/IndoorSchool.otf') format('opentype'), /* Cambia la ruta y el formato según tus archivos de fuente */
+    src: url('../fonts/IndoorSchool.otf') format('opentype'), /* Cambia la ruta y el formato según tus archivos de fuente */
   
  
 }
 @font-face {
     font-family: 'natural';
-    src: url('/assets/fonts/Natural.otf') format('opentype'), /* Cambia la ruta y el formato según tus archivos de fuente */
+    src: url('../fonts/Natural.otf') format('opentype'), /* Cambia la ruta y el formato según tus archivos de fuente */
   
  
 }
@@ -31,7 +31,7 @@ body::before {
     right: 0;
     width: 90%;
     height:90%;
-    background-image: url(/assets/images/green-leaves-white-background.png); /* Imagen de fondo */
+    background-image: url(../images/green-leaves-white-background.png); /* Imagen de fondo */
     background-size: cover;
     z-index: 1; /* Coloca la imagen detrás de todo el contenido */
 }
