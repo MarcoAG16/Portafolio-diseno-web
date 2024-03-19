@@ -1,14 +1,9 @@
 body {
     /* Fallback para navegadores que no admiten degradados */
-    background-color: #5c5c5c;
+    background-color: #e7e7e7;
 
-    /* Degradado */
-    background-image: linear-gradient(to right, #ffffff, #707070);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 
-    /* Animación */
-    animation: moveGradient 5s linear infinite alternate; /* 5 segundos de duración, linear, repetición infinita, cambio de dirección */
+    
 }
 
 .imagePresentation{
